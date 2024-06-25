@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Bai 1: Tinh diem chuan</h2>
+      <form id="formDiemChuan">
+        <div class="mb-3 w-50 fs-4">
+            <label for="" class="form-label">Nhap diem chuan</label>
+            <input
+              type="number"
+              class="form-control"
+              name=""
+              id="nhapDiemChuan"
+              aria-describedby="helpId"
+              placeholder="Nhap diem"
+            />
+          </div>
+        <div class="mb-3">
+          <label for="" class="form-label fs-4">Chon khu vuc</label>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              value="X"
+              name="khuVucUt"
+              id="khuVuc0"
+              checked
+            />
+            <label class="form-check-label" for="khuVuc0"> Khong </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              value="A"
+              name="khuVucUt"
+              id="khuVucA"
+              
+            />
+            <label class="form-check-label" for="khuVucA"> Khu vuc A </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              value="B"
+              name="khuVucUt"
+              id="khuVucB"
+              
+            />
+            <label class="form-check-label" for="khuVucB"> Khu vuc B </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              value="C"
+              name="khuVucUt"
+              id="khuVucC"
+              
+            />
+            <label class="form-check-label" for="khuVucC"> Khu vuc C </label>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="" class="form-label fs-4">Chon doi tuong</label>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              value="0"
+              name="doiTuongUt"
+              id="doiTuong0"
+              checked
+            />
+            <label class="form-check-label" for="doiTuong0"> Khong </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              value="dT1"
+              name="doiTuongUt"
+              id="doiTuong1"
+            />
+            <label class="form-check-label" for="doiTuong1">
+              Doi tuong 1
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              value="dT2"
+              name="doiTuongUt"
+              id="doiTuong2"
+            />
+            <label class="form-check-label" for="doiTuong2">
+              Doi tuong 2
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              value="dT3"
+              name="doiTuongUt"
+              id="doiTuong3"
+            />
+            <label class="form-check-label" for="doiTuong3">
+              Doi tuong 3
+            </label>
+          </div>
+        </div>
+
+        <div class="mb-3 w-50">
+          <label for="" class="form-label">Nhap diem mon 1</label>
+          <input
+            type="number"
+            class="form-control"
+            name=""
+            id="nhapDiem1"
+            aria-describedby="helpId"
+            placeholder="Nhap diem mon 1"
+          />
+        </div>
+        <div class="mb-3 w-50">
+          <label for="" class="form-label">Nhap diem mon 2</label>
+          <input
+            type="number"
+            class="form-control"
+            name=""
+            id="nhapDiem2"
+            aria-describedby="helpId"
+            placeholder="Nhap diem mon 2"
+          />
+        </div>
+        <div class="mb-3 w-50">
+          <label for="" class="form-label">Nhap diem mon 3</label>
+          <input
+            type="number"
+            class="form-control"
+            name=""
+            id="nhapDiem3"
+            aria-describedby="helpId"
+            placeholder="Nhap diem mon 3"
+          />
+        </div>
+        <button class="btn btn-danger" type="submit">Ket Qua</button>
+      </form>
+      <p class="bg-success text-white bg-opacity-75 p-4" id="ketQua"></p>
+    </div>
+
+    <!-- Bai2 -->
+    <div class="container">
+      <h2>Bai2: Tinh tien dien</h2>
+      <form id="formTienDien">
+        <div class="mb-3 w-50">
+          <label for="" class="form-label">Nhap ho ten</label>
+          <input
+            type="text"
+            class="form-control"
+            name=""
+            id="hoTen"
+            aria-describedby="helpId"
+            placeholder="Nhap ho ten"
+          />
+        </div>
+        <div class="mb-3 w-50">
+          <label for="" class="form-label">Nhap so Kw</label>
+          <input
+            type="text"
+            class="form-control"
+            name=""
+            id="nhapSoDien"
+            aria-describedby="helpId"
+            placeholder="Nhap so kw"
+          />
+        </div>
+        <button class="btn btn-danger" type="submit">Ket Qua</button>
+      </form>
+      <p class="bg-success text-white bg-opacity-75 p-4" id="ketQua2"></p>
+    </div>
+    <!-- Bai3 -->
+    <div class="container">
+      <h2>Bai 3:Tinh thue thu nhap ca nhan</h2>
+      <form id="formThueThuNhap">
+        <div class="mb-3 w-50">
+          <label for="" class="form-label">Ho ten</label>
+          <input
+            type="text"
+            class="form-control"
+            name=""
+            id="hoTen"
+            aria-describedby="helpId"
+            placeholder="Nhap ho ten"
+          />
+        </div>
+          <div class="mb-3 w-50">
+            <label for="" class="form-label">Tong thu nhap</label>
+            <input
+              type="number"
+              class="form-control"
+              name=""
+              id="tongThuNhapNam"
+              aria-describedby="helpId"
+              placeholder="Nhap tien"
+            />
+          </div>
+            <div class="mb-3 w-50">
+              <label for="" class="form-label">So nguoi phu thuoc</label>
+              <input
+                type="number"
+                class="form-control"
+                name=""
+                id="soNguoiPhuThuoc"
+                aria-describedby="helpId"
+                placeholder="Nhap so nguoi"
+              />
+            </div>
+        <button class="btn btn-danger" type="submit">Tinh tien thue</button>
+      </form>
+      <p class="bg-success text-white bg-opacity-75 p-4" id="ketQua3"></p>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
